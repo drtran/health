@@ -1,0 +1,19 @@
+version: '2'
+services:
+    health-app:
+        image: health
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:postgresql://health-postgresql:5432/health
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+            - SPRING_DATA_ELASTICSEARCH_CLUSTER_NODES=health-elasticsearch:9300
+        ports:
+            - 8080:8080
+    health-postgresql:
+        extends:
+            file: postgresql.yml
+            service: health-postgresql
+    health-elasticsearch:
+        extends:
+            file: elasticsearch.yml
+            service: health-elasticsearch
