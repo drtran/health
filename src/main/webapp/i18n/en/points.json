@@ -2,8 +2,8 @@
     "healthApp": {
         "points" : {
             "home": {
-                "title": "Points",
-                "createLabel": "Create a new Points",
+                "title": "Daily Points",
+                "createLabel": "Add Points",
                 "createOrEditLabel": "Create or edit a Points",
                 "search": "Search for Points"
             },
