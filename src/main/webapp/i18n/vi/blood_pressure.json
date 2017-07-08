@@ -1,0 +1,25 @@
+{
+    "healthApp": {
+        "blood_pressure" : {
+            "home": {
+                "title": "Blood Pressures",
+                "createLabel": "Thêm mới một Blood Pressure",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Blood Pressure",
+                "search": "Tìm Blood Pressure"
+            },
+            "created": "Một Blood Pressure mới được tạo với định danh {{ param }}",
+            "updated": "Một Blood Pressure cập nhật với định danh {{ param }}",
+            "deleted": "Một Blood Pressure đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Blood Pressure {{ id }}?"
+            },
+            "detail": {
+                "title": "Blood Pressure"
+            },
+            "date_time": "Date Time",
+            "systolic": "Systolic",
+            "diastolic": "Diastolic",
+            "user": "User"
+        }
+    }
+}

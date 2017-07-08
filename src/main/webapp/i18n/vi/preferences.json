@@ -1,0 +1,24 @@
+{
+    "healthApp": {
+        "preferences" : {
+            "home": {
+                "title": "Preferences",
+                "createLabel": "Thêm mới một Preferences",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Preferences",
+                "search": "Tìm Preferences"
+            },
+            "created": "Một Preferences mới được tạo với định danh {{ param }}",
+            "updated": "Một Preferences cập nhật với định danh {{ param }}",
+            "deleted": "Một Preferences đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Preferences {{ id }}?"
+            },
+            "detail": {
+                "title": "Preferences"
+            },
+            "weekly_goal": "Weekly Goal",
+            "weight_units": "Weight Units",
+            "user": "User"
+        }
+    }
+}

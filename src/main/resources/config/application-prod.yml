@@ -21,7 +21,7 @@ spring:
             enabled: false
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://192.168.99.100:5432/health
+        url: jdbc:postgresql://192.168.99.101:5432/health
         username: health
         password: health
     jpa:
@@ -37,7 +37,11 @@ spring:
     data:
         elasticsearch:
             cluster-name:
-            cluster-nodes: localhost:9300
+            cluster-nodes:
+            properties:
+                path:
+                    logs: target/elasticsearch/log
+                    data: target/elasticsearch/data
     mail:
         host: localhost
         port: 25

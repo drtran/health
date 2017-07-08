@@ -1,0 +1,24 @@
+{
+    "healthApp": {
+        "weight" : {
+            "home": {
+                "title": "Weights",
+                "createLabel": "Thêm mới một Weight",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Weight",
+                "search": "Tìm Weight"
+            },
+            "created": "Một Weight mới được tạo với định danh {{ param }}",
+            "updated": "Một Weight cập nhật với định danh {{ param }}",
+            "deleted": "Một Weight đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Weight {{ id }}?"
+            },
+            "detail": {
+                "title": "Weight"
+            },
+            "date_time": "Date Time",
+            "weight": "Weight",
+            "user": "User"
+        }
+    }
+}

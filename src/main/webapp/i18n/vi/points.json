@@ -1,0 +1,27 @@
+{
+    "healthApp": {
+        "points" : {
+            "home": {
+                "title": "Points",
+                "createLabel": "Thêm mới một Points",
+                "createOrEditLabel": "Thêm mới hoặc cập nhật Points",
+                "search": "Tìm Points"
+            },
+            "created": "Một Points mới được tạo với định danh {{ param }}",
+            "updated": "Một Points cập nhật với định danh {{ param }}",
+            "deleted": "Một Points đã xóa với định danh {{ param }}",
+            "delete": {
+                "question": "Bạn có chắc là muốn xóa Points {{ id }}?"
+            },
+            "detail": {
+                "title": "Points"
+            },
+            "date": "Date",
+            "exercise": "Exercise",
+            "meals": "Meals",
+            "alcohol": "Alcohol",
+            "notes": "Notes",
+            "user": "User"
+        }
+    }
+}
